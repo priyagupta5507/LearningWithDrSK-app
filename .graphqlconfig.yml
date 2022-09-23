@@ -1,0 +1,18 @@
+projects:
+  LearningwithDrSK-staging:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        region: ap-south-1
+        apiId: sfjkqecrozctrmkavm74esbqhq
+        maxDepth: 4
+extensions:
+  amplify:
+    version: 3

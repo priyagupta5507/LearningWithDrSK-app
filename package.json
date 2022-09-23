@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@aws-amplify/datastore": "^3.12.7",
+    "aws-amplify": "^4.3.33",
+    "dotenv": "^16.0.2"
+  }
+}
